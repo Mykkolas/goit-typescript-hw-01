@@ -14,4 +14,16 @@ const poly: User = {
     email: 'john@example.com'
 };
 
+const mango = {
+    name: 'Mango',
+    age: 30,
+    email: 'john@example.com',
+    address: {
+        city: 'New York',
+        country: 'USA'
+    }
+};
+
+
+console.log(mango);
 console.log(poly);
